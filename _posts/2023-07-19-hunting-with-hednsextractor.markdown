@@ -39,3 +39,4 @@ Combine the output with the [httpx](https://github.com/projectdiscovery/httpx) t
 ```bash
 python hednsextractor.py "https://bgp.he.net/net/104.21.0.0/19#_dns" | httpx -title -tech-detect -status-code
 ```
+![image](https://raw.githubusercontent.com/teixeira0xfffff/HEDnsExtractor/main/assets/sample.png)
