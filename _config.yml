@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Hunt Down Project - Ahead of emerging threats
+title: Hunt Down Project - Ahead to emerging threats
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   This is a project that want to collaborate with another threat hunting, collaborating with tools and ideas for infosec.
