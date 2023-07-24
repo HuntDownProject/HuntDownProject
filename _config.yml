@@ -31,6 +31,10 @@ github_username:
 # Build settings
 theme: minima
 
+markdown: kramdown
+highlighter: rouge
+show_excerpts: true
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
