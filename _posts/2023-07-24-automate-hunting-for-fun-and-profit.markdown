@@ -7,6 +7,8 @@ categories: threathunting
 
 Automate your threat hunting and get more time for a coffee while hunting malicious website.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IzufKyU3Qb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 The goal here is to automate the discover of new malicious website from an already know domain, eg: sometimes a threat actor removes their phishing site, but uses the same provider, then a new domain arrives but using the same infrastructure. Thinking about this hypothesis that this POC was written.
 
 # Get the arsenal
@@ -120,6 +122,12 @@ do
     katana -u https://bgp.he.net/net/$range/ -f getdomains -ct $crawler_timeout -rl 1 -silent | anew domains_temp.txt | httpx -silent -title -td | notify >> final_report.txt
 done
 ```
+
+## But this works ?
+
+The answear : yesss ! take a coffee and watch the execution
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dg0jMuIyEqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Are you still there ?
 
