@@ -123,6 +123,8 @@ do
 done
 ```
 
+You also can checkout the script through our [repo in github](https://github.com/HuntDownProject/hunt-for-fun-profit).
+
 ## But this works ?
 
 The answear : yesss ! take a coffee and watch the execution
