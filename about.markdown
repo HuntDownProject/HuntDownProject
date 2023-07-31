@@ -16,4 +16,4 @@ Welcome to Hunt Down Project, we are a leading provider of cutting-edge develope
 We have some repositories that deserve attentions, take a time and read the projects listed bellow:
 
 * [KoodousFinder](https://github.com/teixeira0xfffff/KoodousFinder)
-* [HEDnsExtractor](https://github.com/teixeira0xfffff/HEDnsExtractor)
+* [HEDnsExtractor](https://github.com/HuntDownProject/HEDnsExtractor)
