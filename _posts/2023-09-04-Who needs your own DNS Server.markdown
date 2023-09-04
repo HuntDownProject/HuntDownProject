@@ -31,3 +31,39 @@ The screenshot bellow shows the nuclei output:
 ![Shodan Search Pi-hole]({{ site.url }}/assets/img/shodan_search_pihole.png)
 
 While the template don't get into the official distribution you can check out from your [repo](https://github.com/neriberto/nuclei-templates/blob/feature/pihole/http/exposed-panels/pihole-login.yaml).
+
+```yaml
+id: pihole
+
+info:
+  name: PI-hole login panel - Detect
+  author: neriberto
+  severity: info
+  description: PI-hole login panel was detected.
+  reference:
+    - https://pi-hole.net/
+  classification:
+    cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
+    cvss-score: 0.0
+    cwe-id: CWE-200
+  tags: panel,login
+  metadata:
+    max-request: 1
+
+http:
+  - method: GET
+    path:
+      - '{{BaseURL}}/admin/login.php'
+      - '{{BaseURL}}/admin/index.php?login'
+
+    matchers-condition: or
+    matchers:
+      - type: word
+        words:
+          - '<title>Pi-hole - '
+          - 'Pi-hole: Your black hole for Internet advertisements'
+          - 'Pi-hole: A black hole for Internet advertisements'
+          - 'https://pi-hole.net'
+          - '<pre>sudo pihole -a -p</pre>'
+        condition: or
+```
