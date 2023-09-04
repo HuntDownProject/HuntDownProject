@@ -5,7 +5,7 @@ date: 2023-09-01 2:27:00 -0300
 categories: hunting
 ---
 
-I believe readers of this site know what a DNS server is, but did you header about the project [Pi-hole](https://pi-hole.net/) ? This is a very nice project, because settting up your own DNS server with Pi-hole you will have:
+I believe readers of this site know what a DNS server is, but did you heard about the project [Pi-hole](https://pi-hole.net/) ? This is a very nice project, because settting up your own DNS server with Pi-hole you will have:
 
 * Network-wide protection
 * Block in-app advertisements
