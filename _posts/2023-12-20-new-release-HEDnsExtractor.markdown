@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HEDnsExtractor, a suite for hunting suspicious targets, expose domains and phishing discovery"
-date:   2023-12-20 14:47:00 -0300
+date:   2023-12-20 10:00:00 -0300
 categories: hunting
 ---
 <br>
